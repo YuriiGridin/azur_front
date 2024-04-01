@@ -1,5 +1,5 @@
 FROM node:16
 WORKDIR /server
-COPY . .
+COPY . /server
 RUN npm install
 CMD ["npm", "start"]
